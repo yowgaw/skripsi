@@ -81,6 +81,7 @@ include 'koneksi.php';
             <div class="nav-flex" style="margin-bottom: 20px;">
                 <h3>Data Inventaris Produk</h3>
                 <div class="btn-group">
+                    <a href="pesanan_custom.php" role="button" class="secondary">📁 Lihat Pesanan Custom</a>
                     <a href="laporan.php" target="_blank" role="button" class="secondary">🖨️ Cetak Laporan</a>
                     <a href="tambah.php" role="button" class="contrast">+ Tambah Produk</a>
                 </div>
