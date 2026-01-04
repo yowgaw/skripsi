@@ -8,24 +8,30 @@
 </head>
 <body>
 
-    <nav class="container">
-      <ul>
-        <li><strong>ABITEA APPAREL</strong></li>
-      </ul>
-      <ul>
-        <li><a href="#">Beranda</a></li>
-        <li><a href="#katalog">Katalog</a></li>
-        <li><a href="admin/login.php" class="outline" role="button">Login Admin</a></li>
-      </ul>
-    </nav>
+   <nav class="container">
+  <ul>
+    <li><strong>ABITEA APPAREL</strong></li>
+  </ul>
+  <ul>
+    <li><a href="index.php">Beranda</a></li>
+    <li><a href="custom.php">Jasa Custom</a></li> 
+    <li><a href="#katalog">Katalog</a></li>
+    <li><a href="admin/login.php" class="outline" role="button">Login Admin</a></li>
+  </ul>
+</nav>
 
     <header class="container">
-        <div style="text-align: center; padding: 50px 0;">
-            <h1>Temukan Gaya Terbaikmu di Abitea</h1>
-            <p>Koleksi pakaian berkualitas dengan desain eksklusif.</p>
-            <a href="#katalog" role="button">Lihat Koleksi</a>
+    <div style="text-align: center; padding: 60px 0; background-color: var(--card-background-color); border-radius: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <h1>Wujudkan Desain Impianmu di Abitea</h1>
+        <p>Spesialis Jasa Custom Kaos & Jersei. Punya desain sendiri? Kami siap cetak dengan kualitas premium!</p>
+        
+        <div class="grid" style="max-width: 600px; margin: 0 auto;">
+            <a href="custom.php" role="button">Mulai Custom (Upload Desain)</a>
+            
+            <a href="#katalog" role="button" class="outline">Lihat Koleksi Ready</a>
         </div>
-    </header>
+    </div>
+</header>
 
     <main class="container" id="katalog">
         <hr>
