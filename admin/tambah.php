@@ -33,7 +33,7 @@ if($_SESSION['status'] != "login"){
 
     <button type="submit" name="simpan">Simpan Produk</button>
 </form>
-            </form>
+        
         </article>
     </main>
 </body>
